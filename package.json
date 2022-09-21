@@ -1,0 +1,9 @@
+{
+  "name": "unstoppable-domains-tlds-and-resolver-keys",
+  "version": "1.0.0",
+  "description": "a helper package containing all of the TLDs and Resolver Keys for Unstoppable Domains",
+  "main": "index.js",
+  "repository": "https://github.com/unstoppabledomains/tlds-and-resolver-keys-package",
+  "author": "Ben Behrman <bbehrman10@gmail.com>",
+  "license": "MIT"
+}
