@@ -1,5 +1,5 @@
 {
-  "name": "unstoppable-domains-tlds-and-resolver-keys",
+  "name": "@unstoppabledomains/tldsresolverkeys",
   "version": "1.0.0",
   "description": "a helper package containing all of the TLDs and Resolver Keys for Unstoppable Domains",
   "main": "index.js",
