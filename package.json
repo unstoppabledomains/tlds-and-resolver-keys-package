@@ -1,10 +1,15 @@
 {
   "name": "@unstoppabledomains/tldsresolverkeys",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a helper package containing all of the TLDs and Resolver Keys for Unstoppable Domains",
   "main": "index.js",
   "repository": "https://github.com/unstoppabledomains/tlds-and-resolver-keys-package",
   "author": "Ben Behrman <bbehrman10@gmail.com>",
-  "contributors": [{"name":"Vincent Shadbolt","email":"vince.shadbolt@gmail.com"}],
+  "contributors": [
+    {
+      "name": "Vincent Shadbolt",
+      "email": "vince.shadbolt@gmail.com"
+    }
+  ],
   "license": "MIT"
 }
