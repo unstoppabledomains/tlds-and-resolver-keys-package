@@ -5,5 +5,6 @@
   "main": "index.js",
   "repository": "https://github.com/unstoppabledomains/tlds-and-resolver-keys-package",
   "author": "Ben Behrman <bbehrman10@gmail.com>",
+  "contributors": [{"name":"Vincent Shadbolt","email":"vince.shadbolt@gmail.com"}],
   "license": "MIT"
 }
