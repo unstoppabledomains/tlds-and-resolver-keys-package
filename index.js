@@ -1,6 +1,5 @@
 const udTlds = [
   "crypto",
-  "coin",
   "wallet",
   "blockchain",
   "bitcoin",

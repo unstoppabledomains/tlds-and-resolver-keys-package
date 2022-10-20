@@ -9,7 +9,7 @@ This package contains 2 constants: `udTlds` and `udResolverKeys`
 
 udTlds - An array containing all UD TLDs as of 9/22/2022
 
- `[ "crypto", "coin", "wallet", "blockchain", "bitcoin", "x", "888", "nft", "dao", "zil", ] `
+ `[ "crypto", "wallet", "blockchain", "bitcoin", "x", "888", "nft", "dao", "zil", ] `
 
 udResolverKeys - An object 2 arrays of supported currencies as of 9/22/2022 sorted by whether they require single chain or multi chain resolution methods
 
