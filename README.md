@@ -12,6 +12,7 @@ This package contains 2 constants: `udTlds` and `udResolverKeys`
 10/20/2022 - 1.1.0: Removed .coin TLD
 11/2/2022 - 1.2.0: Added .klever TLD
 
+## Variables
 udTlds - An array containing all UD TLDs as of 11/02/2022
 
  `[ "crypto", "wallet", "blockchain", "bitcoin", "x", "888", "nft", "dao", "zil", "klever" ] `
