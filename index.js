@@ -8,6 +8,7 @@ const udTlds = [
   "nft",
   "dao",
   "zil",
+  "klever",
 ];
 const udResolverKeys = {
   singleChain: [
