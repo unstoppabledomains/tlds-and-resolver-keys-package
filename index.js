@@ -1,17 +1,18 @@
 const udTlds = [
   "crypto",
-  "wallet",
-  "blockchain",
   "bitcoin",
-  "x",
-  "888",
-  "nft",
+  "blockchain",
   "dao",
-  "zil",
+  "nft",
+  "888",
+  "wallet",
+  "x",
   "klever",
-];
-const udResolverKeys = {
-  singleChain: [
+  "zil"
+]
+
+const udResolverkeys = {
+  "singleAddressList": [
     "BTC",
     "ETH",
     "ZIL",
@@ -246,8 +247,11 @@ const udResolverKeys = {
     "AVA",
     "MOBX",
     "FAB",
+    "BEAM",
+    "SUI",
+    "MOON"
   ],
-  multiChain: [
+  "multiAddressList": [
     "B2M",
     "ELA",
     "USDT",
@@ -306,8 +310,286 @@ const udResolverKeys = {
     "DPI",
     "DOG",
     "GALA",
+    "0ZK"
   ],
-};
-
-exports.udResolverKeys = udResolverKeys;
-exports.udTlds = udTlds;
+  "multiAddressMapping": {
+    "B2M": [
+      "MATIC",
+      "BEP20",
+      "ERC20"
+    ],
+    "ELA": [
+      "ELA",
+      "ESC"
+    ],
+    "USDT": [
+      "ERC20",
+      "TRON",
+      "EOS",
+      "OMNI",
+      "OKC"
+    ],
+    "FTM": [
+      "ERC20",
+      "BEP2",
+      "OPERA"
+    ],
+    "FUSE": [
+      "ERC20",
+      "FUSE"
+    ],
+    "MATIC": [
+      "MATIC",
+      "BEP20",
+      "ERC20"
+    ],
+    "UNI": [
+      "ERC20",
+      "BEP20",
+      "MATIC",
+      "HRC20",
+      "XDAI"
+    ],
+    "BUSD": [
+      "ERC20",
+      "BEP20",
+      "HRC20"
+    ],
+    "WBTC": [
+      "ERC20",
+      "MATIC",
+      "FANTOM",
+      "HRC20",
+      "XDAI"
+    ],
+    "AAVE": [
+      "ERC20",
+      "MATIC",
+      "FANTOM",
+      "HRC20"
+    ],
+    "SHIB": [
+      "ERC20",
+      "MATIC",
+      "FANTOM"
+    ],
+    "CEL": [
+      "ERC20",
+      "MATIC",
+      "FANTOM",
+      "HRC20"
+    ],
+    "CAKE": [
+      "BEP20",
+      "HRC20"
+    ],
+    "SAFEMOON": [
+      "BEP20",
+      "HRC20"
+    ],
+    "TEL": [
+      "ERC20",
+      "MATIC"
+    ],
+    "SUSHI": [
+      "ERC20",
+      "BEP20",
+      "MATIC",
+      "FANTOM",
+      "HRC20"
+    ],
+    "TUSD": [
+      "ERC20",
+      "BEP20",
+      "AVAX",
+      "HRC20",
+      "BEP2",
+      "TRON"
+    ],
+    "HBTC": [
+      "ERC20",
+      "HRC20"
+    ],
+    "SNX": [
+      "ERC20",
+      "MATIC",
+      "FANTOM",
+      "HRC20"
+    ],
+    "HOT": [
+      "ERC20",
+      "HRC20"
+    ],
+    "NEXO": [
+      "ERC20",
+      "FANTOM"
+    ],
+    "MANA": [
+      "ERC20",
+      "MATIC"
+    ],
+    "MDX": [
+      "HRC20",
+      "BEP20"
+    ],
+    "LUSD": [
+      "ERC20",
+      "MATIC"
+    ],
+    "GRT": [
+      "ERC20",
+      "MATIC",
+      "HRC20"
+    ],
+    "HUSD": [
+      "ERC20",
+      "HRC20"
+    ],
+    "CRV": [
+      "ERC20",
+      "MATIC",
+      "FANTOM"
+    ],
+    "WRX": [
+      "BEP2",
+      "MATIC"
+    ],
+    "LPT": [
+      "ERC20",
+      "HRC20"
+    ],
+    "BAKE": [
+      "BEP20",
+      "HRC20"
+    ],
+    "1INCH": [
+      "ERC20",
+      "BEP20",
+      "MATIC",
+      "HRC20"
+    ],
+    "WOO": [
+      "ERC20",
+      "HRC20"
+    ],
+    "OXY": [
+      "SOLANA",
+      "ERC20"
+    ],
+    "REN": [
+      "ERC20",
+      "HRC20"
+    ],
+    "RENBTC": [
+      "ERC20",
+      "BEP20",
+      "HRC20"
+    ],
+    "FEG": [
+      "ERC20",
+      "HRC20"
+    ],
+    "MIR": [
+      "ERC20",
+      "BEP20"
+    ],
+    "PAXG": [
+      "ERC20",
+      "HRC20"
+    ],
+    "REEF": [
+      "ERC20",
+      "BEP20",
+      "HRC20"
+    ],
+    "BAND": [
+      "ERC20",
+      "FANTOM"
+    ],
+    "INJ": [
+      "ERC20",
+      "BEP20"
+    ],
+    "SAND": [
+      "ERC20",
+      "HRC20"
+    ],
+    "CTSI": [
+      "ERC20",
+      "BEP20",
+      "MATIC"
+    ],
+    "ANC": [
+      "TERRA",
+      "ERC20"
+    ],
+    "IQ": [
+      "ERC20",
+      "BEP20",
+      "MATIC"
+    ],
+    "SUSD": [
+      "ERC20",
+      "FANTOM"
+    ],
+    "SRM": [
+      "ERC20",
+      "SOLANA"
+    ],
+    "FET": [
+      "ERC20",
+      "FETCHAI"
+    ],
+    "KEEP": [
+      "ERC20",
+      "HRC20"
+    ],
+    "ALPHA": [
+      "ERC20",
+      "BEP20"
+    ],
+    "DODO": [
+      "ERC20",
+      "BEP20"
+    ],
+    "KNCL": [
+      "ERC20",
+      "FANTOM",
+      "HRC20"
+    ],
+    "SXP": [
+      "ERC20",
+      "BEP20",
+      "HRC20"
+    ],
+    "UBT": [
+      "ERC20",
+      "MATIC"
+    ],
+    "STORJ": [
+      "ERC20",
+      "HRC20"
+    ],
+    "DPI": [
+      "ERC20",
+      "MATIC"
+    ],
+    "DOG": [
+      "MATIC",
+      "BEP20",
+      "ERC20",
+      "AETH",
+      "OP"
+    ],
+    "GALA": [
+      "ERC20",
+      "BEP20"
+    ],
+    "0ZK": [
+      "ERC20",
+      "BEP20",
+      "MATIC",
+      "0ZK"
+    ]
+  }
+}
