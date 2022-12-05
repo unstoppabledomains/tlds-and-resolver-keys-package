@@ -20,21 +20,21 @@ This package contains 2 constants: `udTlds` and `udResolverKeys`
 ## Changelog
 
 #### 9/22/2022 - 1.0.0:
- Initial Release
+ - Initial Release
 
 #### 10/20/2022 - 1.1.0:
- Removed .coin TLD
+ - Removed .coin TLD
 
 #### 11/2/2022 - 1.2.0:
- Added .klever TLD
+ - Added .klever TLD
 
 #### 11/28/2022 - 2.0.0:
-Added 4 recently supported tokens (BEAM, SUI, MOON, 0ZK)
-Renamed singleChain and multiChain to singleAddressList and multiAddressList
-Added a set of multi-address token mappings under multiAddressMapping
+- Added 4 recently supported tokens (BEAM, SUI, MOON, 0ZK)
+- Renamed singleChain and multiChain to singleAddressList and multiAddressList
+- Added a set of multi-address token mappings under multiAddressMapping
 
 #### 12/5/2022 - 2.0.1
-Added recently supported token (SWEAT)
+- Added recently supported token (SWEAT)
 
 ## Variables
 
