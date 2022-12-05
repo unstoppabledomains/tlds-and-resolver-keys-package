@@ -310,7 +310,8 @@ const udResolverkeys = {
     "DPI",
     "DOG",
     "GALA",
-    "0ZK"
+    "0ZK",
+    "SWEAT"
   ],
   "multiAddressMapping": {
     "B2M": [
@@ -590,6 +591,10 @@ const udResolverkeys = {
       "BEP20",
       "MATIC",
       "0ZK"
+    ],
+    "SWEAT": [
+      "ERC20",
+      "NEP-141"
     ]
   }
 }
