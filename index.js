@@ -598,3 +598,5 @@ const udResolverkeys = {
     ]
   }
 }
+exports.udResolverKeys = udResolverKeys;
+exports.udTlds = udTlds;
