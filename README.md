@@ -33,8 +33,9 @@ This package contains 2 constants: `udTlds` and `udResolverKeys`
 - Renamed singleChain and multiChain to singleAddressList and multiAddressList
 - Added a set of multi-address token mappings under multiAddressMapping
 
-#### 12/5/2022 - 2.0.2
+#### 12/5/2022 - 2.0.3
 - Added recently supported token (SWEAT)
+- Resolves bugs with variable exports
 
 ## Variables
 

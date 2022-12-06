@@ -11,7 +11,7 @@ const udTlds = [
   "zil"
 ]
 
-const udResolverkeys = {
+const udResolverKeys = {
   "singleAddressList": [
     "BTC",
     "ETH",
