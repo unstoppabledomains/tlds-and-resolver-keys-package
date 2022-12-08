@@ -248,6 +248,9 @@ const udResolverKeys = {
     "MOBX",
     "FAB",
     "BEAM",
+    "DESO",
+    "FLR",
+    "SGB",
     "SUI",
     "MOON"
   ],
