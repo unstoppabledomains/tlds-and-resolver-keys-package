@@ -40,11 +40,14 @@ This package contains 2 constants: `udTlds` and `udResolverKeys`
 #### 12/8/2022 - 2.0.4
 - Added recently supported tokens (DESO, FLR, SGB)
 
+#### 12/28/2022 - 2.1.0
+- Added .hi TLD
+
 ## Variables
 
 **udTlds** - An array containing all UD TLDs
 
-`[ "crypto", "wallet", "blockchain", "bitcoin", "x", "888", "nft", "dao", "zil", "klever" ] `
+`[ "crypto", "wallet", "blockchain", "bitcoin", "x", "888", "nft", "dao", "zil", "klever", "hi" ] `
 
 **udResolverKeys** - An object containing 3 elements:
 

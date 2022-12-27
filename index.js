@@ -8,7 +8,8 @@ const udTlds = [
   "wallet",
   "x",
   "klever",
-  "zil"
+  "zil",
+  "hi"
 ]
 
 const udResolverKeys = {
