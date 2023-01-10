@@ -21,7 +21,6 @@ const udResolverKeys = {
     "ETC",
     "EQL",
     "LINK",
-    "USDC",
     "BAT",
     "REP",
     "ZRX",
@@ -38,7 +37,6 @@ const udResolverKeys = {
     "ADA",
     "EOS",
     "XLM",
-    "BNB",
     "BTG",
     "NANO",
     "WAVES",
@@ -257,6 +255,8 @@ const udResolverKeys = {
   ],
   "multiAddressList": [
     "B2M",
+    "BNB",
+    "USDC",
     "ELA",
     "USDT",
     "FTM",
@@ -327,12 +327,23 @@ const udResolverKeys = {
       "ELA",
       "ESC"
     ],
+    "BNB": [
+      "BEP2",
+      "BEP20"
+    ],
     "USDT": [
       "ERC20",
       "TRON",
       "EOS",
       "OMNI",
       "OKC"
+    ],
+    "USDC": [
+      "ERC20",
+      "OKT",
+      "MATIC",
+      "SOL",
+      "AVAX"
     ],
     "FTM": [
       "ERC20",
