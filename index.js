@@ -251,7 +251,8 @@ const udResolverKeys = {
     "FLR",
     "SGB",
     "SUI",
-    "MOON"
+    "MOON",
+    "GTH"
   ],
   "multiAddressList": [
     "B2M",
