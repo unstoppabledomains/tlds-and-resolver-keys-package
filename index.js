@@ -205,7 +205,6 @@ const udResolverKeys = {
     "RPL",
     "AGIX",
     "CELR",
-    "FET",
     "OXT",
     "ARDR",
     "MATH",
@@ -252,6 +251,10 @@ const udResolverKeys = {
     "SGB",
     "SUI",
     "MOON",
+    "POKT",
+    "KAI",
+    "XLA",
+    "APT",
     "GTH"
   ],
   "multiAddressList": [
