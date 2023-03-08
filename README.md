@@ -21,7 +21,7 @@ This package contains 2 constants: `udTlds` and `udResolverKeys`
 
 **udTlds** - An array containing all UD TLDs
 
-`[ "crypto", "wallet", "blockchain", "bitcoin", "x", "888", "nft", "dao", "zil", "klever", "hi" ] `
+`[ "crypto", "wallet", "blockchain", "bitcoin", "x", "888", "nft", "dao", "zil", "klever", "hi", "kresus" ] `
 
 **udResolverKeys** - An object containing 3 elements:
 
@@ -73,3 +73,6 @@ This package contains 2 constants: `udTlds` and `udResolverKeys`
 - Added supported single address token POKT, KAI, XLA, APT
 - Removed supported single address token FET
 - Added supported multi address token FET
+
+#### 3/8/2023 - 2.2.3
+- Added .kresus TLD
