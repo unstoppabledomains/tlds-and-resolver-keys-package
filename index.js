@@ -10,7 +10,8 @@ const udTlds = [
   "klever",
   "zil",
   "hi",
-  "kresus"
+  "kresus",
+  "polygon"
 ]
 
 const udResolverKeys = {
@@ -320,7 +321,8 @@ const udResolverKeys = {
     "DOG",
     "GALA",
     "0ZK",
-    "SWEAT"
+    "SWEAT",
+    "HI"
   ],
   "multiAddressMapping": {
     "B2M": [
@@ -615,6 +617,10 @@ const udResolverKeys = {
     "SWEAT": [
       "ERC20",
       "NEP-141"
+    ],
+    "HI": [
+      "ERC20",
+      "BEP20"
     ]
   }
 }
