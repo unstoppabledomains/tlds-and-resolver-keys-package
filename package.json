@@ -11,5 +11,13 @@
       "email": "vince.shadbolt@gmail.com"
     }
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "sync": "node scripts/sync-tld-resolver-keys.mjs"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.10.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.1"
+  }
 }
