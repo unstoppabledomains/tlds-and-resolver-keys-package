@@ -184,6 +184,39 @@ function setTokenData(tokenData) {
     tokenData.multi.length;
 }
 
+function generateChangeLog(checkedJson) {
+  if (!checkedJson["Need to Update"]) return;
+
+  let changeLog = [];
+
+  if (checkedJson["Single Differences"]["Removed"].length > 0) {
+    const tokens = checkedJson["Single Differences"]["Removed"].join(", ");
+    changeLog.push(`- Removed supported single address token ${tokens}`);
+  }
+  if (checkedJson["Single Differences"]["Added"].length > 0) {
+    const tokens = checkedJson["Single Differences"]["Added"].join(", ");
+    changeLog.push(`- Added supported single address token ${tokens}`);
+  }
+  if (checkedJson["Multi Differences"]["Removed"].length > 0) {
+    const tokens = checkedJson["Multi Differences"]["Removed"].join(", ");
+    changeLog.push(`- Removed supported multi address token ${tokens}`);
+  }
+  if (checkedJson["Multi Differences"]["Added"].length > 0) {
+    const tokens = checkedJson["Multi Differences"]["Added"].join(", ");
+    changeLog.push(`- Added supported multi address token ${tokens}`);
+  }
+  if (checkedJson["TLD Differences"]["Removed"].length > 0) {
+    const tlds = checkedJson["TLD Differences"]["Removed"].join(", ");
+    changeLog.push(`- Removed supported TLD ${tlds}`);
+  }
+  if (checkedJson["TLD Differences"]["Added"].length > 0) {
+    const tlds = checkedJson["TLD Differences"]["Added"].join(", ");
+    changeLog.push(`- Added supported TLD ${tlds}`);
+  }
+
+  return changeLog.join("\n");
+}
+
 async function mainExecutable() {
   const apiResults = await getApiResults();
   setTldData(apiResults.tldApiResult.tlds);
@@ -204,6 +237,7 @@ async function mainExecutable() {
     jsonData.responseMetaData.latest_changes = checkedJson;
     writeJsonToFile(jsonData);
     core.setOutput("publish", "true");
+    core.setOutput("changeLog", generateChangeLog(checkedJson));
   } else {
     console.log("Current data is up-to-date");
     core.setOutput("publish", "false");

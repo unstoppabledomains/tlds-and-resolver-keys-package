@@ -59,6 +59,20 @@ jobs:
           git tag ${{ steps.semvers.outputs.patch }}
           git push origin --tags
 
+      - name: Update Changelog
+        if: steps.sync-script.outputs.publish == 'true'
+        uses: stefanzweifel/changelog-updater-action@v1
+        with:
+          latest-version: ${{ steps.semvers.outputs.patch }}
+          release-notes: ${{ steps.sync-script.outputs.changeLog }}
+
+      - name: Commit new version
+        if: steps.sync-script.outputs.publish == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: ${{ github.event.release.target_commitish }}
+          commit_message: Release new version ${{ steps.semvers.outputs.patch }}
+
       - run:
           echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > ~/.npmrc
 
@@ -67,10 +81,3 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         run: npm publish
-
-      - name: Commit new version
-        if: steps.sync-script.outputs.publish == 'true'
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          branch: ${{ github.event.release.target_commitish }}
-          commit_message: Release new version ${{ steps.semvers.outputs.patch }}
