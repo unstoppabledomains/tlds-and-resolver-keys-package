@@ -1,3 +1,8 @@
+## 2.3.5 - 2023-04-11
+
+- Added supported single address token VERSE
+- Added supported multi address token MCONTENT
+
 ## 2.3.4 - 2023-03-14
 
 - Added .polygon TLD
