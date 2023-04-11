@@ -1,0 +1,82 @@
+# Workflow to sync the latest TLDs and resolver keys
+name: TLDs Resolver Keys Sync
+
+on:
+  schedule:
+    - cron: '00 12 * * 1' # At 01:00 on Mondays.
+
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'It will check and release a new npm package version if there are new TLDs and resolver keys.
+          Do you want to continue?'
+        default: false
+        type: boolean
+        required: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: main
+          token: ${{ secrets.RELEASE_SECRET }}
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          always-auth: true
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run sync script
+        id: sync-script
+        run: npm run sync
+
+      - name: Get Previous tag
+        id: previoustag
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+
+      - name: Get next minor version
+        id: semvers
+        uses: "WyriHaximus/github-action-next-semvers@v1"
+        with:
+          version: ${{ steps.previoustag.outputs.tag }}
+
+      - name: New package.json version
+        run: npm version --new-version ${{ steps.semvers.outputs.patch }} --no-git-tag-version
+
+      - name: Create git tag
+        if: steps.sync-script.outputs.publish == 'true'
+        run: |
+          git tag ${{ steps.semvers.outputs.patch }}
+          git push origin --tags
+
+      - name: Update Changelog
+        if: steps.sync-script.outputs.publish == 'true'
+        uses: stefanzweifel/changelog-updater-action@v1
+        with:
+          latest-version: ${{ steps.semvers.outputs.patch }}
+          release-notes: ${{ steps.sync-script.outputs.changeLog }}
+
+      - name: Commit new version
+        if: steps.sync-script.outputs.publish == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: ${{ github.event.release.target_commitish }}
+          commit_message: Release new version ${{ steps.semvers.outputs.patch }}
+
+      - run:
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > ~/.npmrc
+
+      - name: Publish
+        if: steps.sync-script.outputs.publish == 'true'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        run: npm publish
