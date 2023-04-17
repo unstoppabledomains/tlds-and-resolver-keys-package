@@ -50,6 +50,7 @@ jobs:
           version: ${{ steps.previoustag.outputs.tag }}
 
       - name: New package.json version
+        if: steps.sync-script.outputs.publish == 'true'
         run: npm version --new-version ${{ steps.semvers.outputs.patch }} --no-git-tag-version
 
       - name: Create git tag
