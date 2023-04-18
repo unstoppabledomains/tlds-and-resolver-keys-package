@@ -1,3 +1,7 @@
+## 2.3.6 - 2023-04-18
+
+- Added supported TLD anime, manga
+
 ## 2.3.5 - 2023-04-11
 
 - Added supported single address token VERSE
