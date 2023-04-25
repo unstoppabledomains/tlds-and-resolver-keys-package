@@ -13,7 +13,8 @@ const udTlds = [
   "kresus",
   "polygon",
   "anime",
-  "manga"
+  "manga",
+  "binanceus"
 ];
 
 const udResolverKeys = {

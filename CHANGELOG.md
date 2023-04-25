@@ -1,3 +1,7 @@
+## 2.3.7 - 2023-04-25
+
+- Added supported TLD binanceus
+
 ## 2.3.6 - 2023-04-18
 
 - Added supported TLD anime, manga
