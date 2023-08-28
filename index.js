@@ -8,13 +8,14 @@ const udTlds = [
   "wallet",
   "x",
   "klever",
-  "zil",
   "hi",
   "kresus",
   "polygon",
   "anime",
   "manga",
-  "binanceus"
+  "binanceus",
+  "go",
+  "zil"
 ];
 
 const udResolverKeys = {

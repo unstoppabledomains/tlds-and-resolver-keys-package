@@ -1,3 +1,7 @@
+## 2.3.8 - 2023-08-28
+
+- Added supported TLD go
+
 ## 2.3.7 - 2023-04-25
 
 - Added supported TLD binanceus
