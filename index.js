@@ -1,21 +1,22 @@
 const udTlds = [
-  "crypto",
-  "bitcoin",
-  "blockchain",
-  "dao",
+  "x",
+  "polygon",
   "nft",
+  "crypto",
+  "blockchain",
+  "bitcoin",
+  "dao",
   "888",
   "wallet",
-  "x",
-  "klever",
+  "binanceus",
   "hi",
+  "klever",
   "kresus",
-  "polygon",
   "anime",
   "manga",
-  "binanceus",
   "go",
-  "zil"
+  "zil",
+  "eth"
 ];
 
 const udResolverKeys = {

@@ -1,3 +1,7 @@
+## 2.3.9 - 2023-09-18
+
+- Added supported TLD eth
+
 ## 2.3.8 - 2023-08-28
 
 - Added supported TLD go
