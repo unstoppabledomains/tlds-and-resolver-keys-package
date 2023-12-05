@@ -1,3 +1,7 @@
+## 2.3.10 - 2023-12-05
+
+- Added supported TLD altimist
+
 ## 2.3.9 - 2023-09-18
 
 - Added supported TLD eth
