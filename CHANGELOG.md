@@ -1,3 +1,7 @@
+## 2.3.11 - 2023-12-06
+
+- Added supported TLD unstoppable
+
 ## 2.3.10 - 2023-12-05
 
 - Added supported TLD altimist

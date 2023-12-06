@@ -16,6 +16,7 @@ const udTlds = [
   "manga",
   "go",
   "altimist",
+  "unstoppable",
   "zil",
   "eth"
 ];
