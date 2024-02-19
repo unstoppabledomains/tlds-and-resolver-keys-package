@@ -265,7 +265,8 @@ const udResolverKeys = {
 		"XLA",
 		"APT",
 		"GTH",
-		"VERSE"
+		"VERSE",
+		"NIBI"
 	],
 	"multiAddressList": [
 		"B2M",
@@ -359,6 +360,7 @@ const udResolverKeys = {
 			"TRON",
 			"EOS",
 			"OMNI",
+			"OKB",
 			"OKC"
 		],
 		"FTM": [

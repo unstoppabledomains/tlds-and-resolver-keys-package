@@ -1,3 +1,7 @@
+## 2.3.12 - 2024-02-19
+
+- Added supported single address token NIBI
+
 ## 2.3.11 - 2023-12-06
 
 - Added supported TLD unstoppable
