@@ -1,3 +1,7 @@
+## 2.3.13 - 2024-02-23
+
+- Added supported TLD pudgy
+
 ## 2.3.12 - 2024-02-19
 
 - Added supported single address token NIBI
