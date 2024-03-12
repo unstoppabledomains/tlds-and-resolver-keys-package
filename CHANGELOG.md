@@ -1,3 +1,7 @@
+## 2.3.14 - 2024-03-12
+
+- Added supported TLD austin
+
 ## 2.3.13 - 2024-02-23
 
 - Added supported TLD pudgy
