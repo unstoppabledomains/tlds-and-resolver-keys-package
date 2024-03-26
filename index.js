@@ -19,6 +19,7 @@ const udTlds = [
   "pudgy",
   "unstoppable",
   "austin",
+  "bitget",
   "zil",
   "eth"
 ];

@@ -1,3 +1,7 @@
+## 2.3.15 - 2024-03-26
+
+- Added supported TLD bitget
+
 ## 2.3.14 - 2024-03-12
 
 - Added supported TLD austin
