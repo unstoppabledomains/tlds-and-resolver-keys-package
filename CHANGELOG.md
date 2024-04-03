@@ -1,3 +1,7 @@
+## 2.3.16 - 2024-04-03
+
+- Added supported TLD pog
+
 ## 2.3.15 - 2024-03-26
 
 - Added supported TLD bitget
