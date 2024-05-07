@@ -1,3 +1,7 @@
+## 2.3.18 - 2024-05-07
+
+- Added supported TLD witg
+
 ## 2.3.17 - 2024-04-16
 
 - Added supported TLD clay
