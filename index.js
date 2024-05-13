@@ -24,6 +24,7 @@ const udTlds = [
   "clay",
   "witg",
   "zil",
+  "com",
   "eth"
 ];
 

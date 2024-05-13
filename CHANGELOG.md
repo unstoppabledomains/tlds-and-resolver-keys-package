@@ -1,3 +1,7 @@
+## 2.3.19 - 2024-05-13
+
+- Added supported TLD com
+
 ## 2.3.18 - 2024-05-07
 
 - Added supported TLD witg
