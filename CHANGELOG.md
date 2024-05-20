@@ -1,3 +1,7 @@
+## 2.3.20 - 2024-05-20
+
+- Added supported multi address token WETH
+
 ## 2.3.19 - 2024-05-13
 
 - Added supported TLD com

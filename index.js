@@ -280,6 +280,7 @@ const udResolverKeys = {
 		"USDC",
 		"BNB",
 		"ELA",
+		"WETH",
 		"USDT",
 		"FTM",
 		"FUSE",
@@ -362,8 +363,14 @@ const udResolverKeys = {
 			"ELA",
 			"ESC"
 		],
+		"WETH": [
+			"ERC20",
+			"MATIC",
+			"BEP20"
+		],
 		"USDT": [
 			"ERC20",
+			"MATIC",
 			"TRON",
 			"EOS",
 			"OMNI",
