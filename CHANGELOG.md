@@ -1,3 +1,7 @@
+## 2.3.21 - 2024-05-21
+
+- Added supported TLD metropolis
+
 ## 2.3.20 - 2024-05-20
 
 - Added supported multi address token WETH
