@@ -1,3 +1,7 @@
+## 2.3.22 - 2024-05-28
+
+- Added supported TLD wrkx
+
 ## 2.3.21 - 2024-05-21
 
 - Added supported TLD metropolis
