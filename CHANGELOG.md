@@ -1,3 +1,7 @@
+## 2.3.23 - 2024-05-29
+
+- Added supported TLD secret
+
 ## 2.3.22 - 2024-05-28
 
 - Added supported TLD wrkx
