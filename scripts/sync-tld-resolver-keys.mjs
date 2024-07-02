@@ -118,7 +118,7 @@ function tokenListDifference(currentTokenList, newTokenList) {
 /** Retrieves API data for supported LDs, Tokens, and Resolver Keys */
 async function getApiResults() {
   const resolverKeyApiResult = await (
-    await fetch("https://unstoppabledomains.com/api/uns-resolver-keys")
+    await fetch("https://api.unstoppabledomains.com/api/uns-resolver-keys")
   ).json();
   const tldApiResult = await (
     await fetch("https://api.unstoppabledomains.com/resolve/supported_tlds")
