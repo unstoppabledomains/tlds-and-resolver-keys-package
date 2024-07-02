@@ -26,8 +26,10 @@ const udTlds = [
   "metropolis",
   "wrkx",
   "secret",
+  "raiin",
   "zil",
   "com",
+  "ca",
   "eth"
 ];
 

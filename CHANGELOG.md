@@ -1,3 +1,7 @@
+## 2.3.24 - 2024-07-02
+
+- Added supported TLD raiin, ca
+
 ## 2.3.23 - 2024-05-29
 
 - Added supported TLD secret
