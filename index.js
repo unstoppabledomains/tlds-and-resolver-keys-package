@@ -28,6 +28,7 @@ const udTlds = [
   "secret",
   "raiin",
   "stepn",
+  "kryptic",
   "zil",
   "com",
   "ca",

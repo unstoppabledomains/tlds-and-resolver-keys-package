@@ -1,3 +1,7 @@
+## 2.3.26 - 2024-07-18
+
+- Added supported TLD kryptic
+
 ## 2.3.25 - 2024-07-11
 
 - Added supported TLD stepn
