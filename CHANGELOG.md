@@ -1,3 +1,7 @@
+## 2.3.27 - 2024-07-24
+
+- Added supported TLD ubu
+
 ## 2.3.26 - 2024-07-18
 
 - Added supported TLD kryptic
