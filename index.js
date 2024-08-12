@@ -30,6 +30,7 @@ const udTlds = [
   "stepn",
   "kryptic",
   "ubu",
+  "tball",
   "zil",
   "com",
   "ca",

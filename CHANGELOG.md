@@ -1,3 +1,7 @@
+## 2.3.28 - 2024-08-12
+
+- Added supported TLD tball
+
 ## 2.3.27 - 2024-07-24
 
 - Added supported TLD ubu
