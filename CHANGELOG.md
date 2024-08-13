@@ -1,3 +1,8 @@
+## 2.3.29 - 2024-08-13
+
+- Added supported multi address token FARMS
+- Added supported TLD farms
+
 ## 2.3.28 - 2024-08-12
 
 - Added supported TLD tball

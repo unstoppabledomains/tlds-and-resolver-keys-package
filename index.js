@@ -31,6 +31,7 @@ const udTlds = [
   "kryptic",
   "ubu",
   "tball",
+  "farms",
   "zil",
   "com",
   "ca",
@@ -286,6 +287,7 @@ const udResolverKeys = {
 	],
 	"multiAddressList": [
 		"B2M",
+		"FARMS",
 		"USDC",
 		"BNB",
 		"ELA",
@@ -356,6 +358,9 @@ const udResolverKeys = {
 			"MATIC",
 			"BEP20",
 			"ERC20"
+		],
+		"FARMS": [
+			"MATIC"
 		],
 		"USDC": [
 			"ERC20",
