@@ -1,3 +1,7 @@
+## 2.3.30 - 2024-08-15
+
+- Added supported TLD dfz
+
 ## 2.3.29 - 2024-08-13
 
 - Added supported multi address token FARMS

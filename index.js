@@ -32,6 +32,7 @@ const udTlds = [
   "ubu",
   "tball",
   "farms",
+  "dfz",
   "zil",
   "com",
   "ca",
