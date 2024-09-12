@@ -1,6 +1,6 @@
 {
   "name": "@unstoppabledomains/tldsresolverkeys",
-  "version": "2.3.30",
+  "version": "2.3.31",
   "description": "a helper package containing all of the TLDs and Resolver Keys for Unstoppable Domains",
   "main": "index.js",
   "repository": "https://github.com/unstoppabledomains/tlds-and-resolver-keys-package",

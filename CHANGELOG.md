@@ -1,3 +1,7 @@
+## 2.3.31 - 2024-09-12
+
+- Added supported TLD smobler, pw
+
 ## 2.3.30 - 2024-08-15
 
 - Added supported TLD dfz
