@@ -16,6 +16,7 @@ const udTlds = [
   "klever",
   "kresus",
   "kryptic",
+  "lfg",
   "manga",
   "metropolis",
   "nft",

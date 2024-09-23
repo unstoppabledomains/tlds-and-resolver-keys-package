@@ -1,3 +1,7 @@
+## 2.3.32 - 2024-09-23
+
+- Added supported TLD lfg
+
 ## 2.3.31 - 2024-09-12
 
 - Added supported TLD smobler, pw
