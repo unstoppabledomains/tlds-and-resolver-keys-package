@@ -1,3 +1,7 @@
+## 2.3.33 - 2024-09-30
+
+- Added supported TLD benji, dream
+
 ## 2.3.32 - 2024-09-23
 
 - Added supported TLD lfg
