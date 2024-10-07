@@ -1,3 +1,7 @@
+## 2.3.34 - 2024-10-07
+
+- Added supported TLD bald, mumu, propykeys
+
 ## 2.3.33 - 2024-09-30
 
 - Added supported TLD benji, dream
