@@ -1,4 +1,5 @@
 const udTlds = [
+  "888",
   "altimist",
   "anime",
   "austin",
@@ -8,11 +9,15 @@ const udTlds = [
   "bitcoin",
   "bitget",
   "blockchain",
+  "ca",
+  "chomp",
   "clay",
+  "com",
   "crypto",
   "dao",
   "dfz",
   "dream",
+  "eth",
   "farms",
   "go",
   "hi",
@@ -28,6 +33,7 @@ const udTlds = [
   "polygon",
   "propykeys",
   "pudgy",
+  "pw",
   "raiin",
   "secret",
   "smobler",
@@ -39,12 +45,7 @@ const udTlds = [
   "witg",
   "wrkx",
   "x",
-  "888",
-  "zil",
-  "ca",
-  "com",
-  "pw",
-  "eth"
+  "zil"
 ];
 
 const udResolverKeys = {

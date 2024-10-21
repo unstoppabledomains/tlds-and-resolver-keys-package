@@ -1,3 +1,7 @@
+## 2.3.35 - 2024-10-21
+
+- Added supported TLD chomp
+
 ## 2.3.34 - 2024-10-07
 
 - Added supported TLD bald, mumu, propykeys
