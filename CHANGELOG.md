@@ -1,3 +1,7 @@
+## 2.3.36 - 2024-11-04
+
+- Added supported TLD ethermail
+
 ## 2.3.35 - 2024-10-21
 
 - Added supported TLD chomp

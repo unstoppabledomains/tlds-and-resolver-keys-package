@@ -18,6 +18,7 @@ const udTlds = [
   "dfz",
   "dream",
   "eth",
+  "ethermail",
   "farms",
   "go",
   "hi",
