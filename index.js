@@ -29,7 +29,9 @@ const udTlds = [
   "manga",
   "metropolis",
   "mumu",
+  "net",
   "nft",
+  "org",
   "pog",
   "polygon",
   "propykeys",
@@ -46,6 +48,7 @@ const udTlds = [
   "witg",
   "wrkx",
   "x",
+  "xmr",
   "zil"
 ];
 

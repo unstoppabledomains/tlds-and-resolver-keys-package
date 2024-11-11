@@ -1,3 +1,7 @@
+## 2.3.37 - 2024-11-11
+
+- Added supported TLD net, org, xmr
+
 ## 2.3.36 - 2024-11-04
 
 - Added supported TLD ethermail
