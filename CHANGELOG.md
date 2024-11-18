@@ -1,3 +1,7 @@
+## 2.3.38 - 2024-11-18
+
+- Added supported TLD bet, co, digital, fun, group, host, info, io, life, live, ltd, online, press, pro, site, space, store, tech, uno, website, wifi, xyz
+
 ## 2.3.37 - 2024-11-11
 
 - Added supported TLD net, org, xmr
