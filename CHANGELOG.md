@@ -1,3 +1,7 @@
+## 2.3.39 - 2024-11-25
+
+- Added supported TLD moon
+
 ## 2.3.38 - 2024-11-18
 
 - Added supported TLD bet, co, digital, fun, group, host, info, io, life, live, ltd, online, press, pro, site, space, store, tech, uno, website, wifi, xyz

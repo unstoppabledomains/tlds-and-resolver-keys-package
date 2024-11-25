@@ -39,6 +39,7 @@ const udTlds = [
   "ltd",
   "manga",
   "metropolis",
+  "moon",
   "mumu",
   "net",
   "nft",
