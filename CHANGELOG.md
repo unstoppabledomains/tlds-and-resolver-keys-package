@@ -1,3 +1,7 @@
+## 2.3.40 - 2024-12-02
+
+- Added supported TLD academy, agency, boomer, boston, chat, club, company, design, email, family, finance, fyi, games, global, guru, hockey, llc, media, miami, money, network, news, rip, rocks, services, social, solutions, studio, systems, tea, team, technology, today, vip, work, world, wtf, zone
+
 ## 2.3.39 - 2024-11-25
 
 - Added supported TLD moon
