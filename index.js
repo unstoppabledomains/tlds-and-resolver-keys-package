@@ -94,6 +94,7 @@ const udTlds = [
   "tech",
   "technology",
   "today",
+  "u",
   "ubu",
   "uno",
   "unstoppable",
