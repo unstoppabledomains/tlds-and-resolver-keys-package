@@ -1,3 +1,7 @@
+## 2.3.42 - 2024-12-16
+
+- Added supported TLD cc, me, npc, quantum
+
 ## 2.3.41 - 2024-12-09
 
 - Added supported TLD u
