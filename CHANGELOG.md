@@ -1,3 +1,7 @@
+## 2.3.43 - 2024-12-23
+
+- Added supported TLD donut, emir
+
 ## 2.3.42 - 2024-12-16
 
 - Added supported TLD cc, me, npc, quantum
